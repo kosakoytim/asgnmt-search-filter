@@ -1,0 +1,28 @@
+PODS:
+  - SwiftHTTP (3.0.1)
+  - SwiftyJSON (4.2.0)
+  - TTRangeSlider (1.0.6)
+  - WARangeSlider (1.1.1)
+
+DEPENDENCIES:
+  - SwiftHTTP
+  - SwiftyJSON
+  - TTRangeSlider
+  - WARangeSlider
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftHTTP
+    - SwiftyJSON
+    - TTRangeSlider
+    - WARangeSlider
+
+SPEC CHECKSUMS:
+  SwiftHTTP: e94f1aa8cde58637dcc0100f6349de31a3337fde
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  TTRangeSlider: 78188bea83f6471a06f75adbc88da5e990baeafe
+  WARangeSlider: 54b3e0853b8d16c444fd539005901aecee86837d
+
+PODFILE CHECKSUM: c5a982c858cf58bcdeedc8d785d3987ae7694e11
+
+COCOAPODS: 1.5.3

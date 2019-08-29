@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ShopTypeCell" id="gTV-IL-0wX" customClass="ShopTypeCell" customModule="search_filter_mini_proj" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="73"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="73"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZDB-hy-Q4p">
+                        <rect key="frame" x="15" y="21" width="51" height="31"/>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgP-jS-8cy">
+                        <rect key="frame" x="103" y="24" width="48" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="dgP-jS-8cy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="24" id="94E-Bn-GIS"/>
+                <constraint firstItem="dgP-jS-8cy" firstAttribute="leading" secondItem="ZDB-hy-Q4p" secondAttribute="trailing" constant="39" id="WxB-NH-qT9"/>
+                <constraint firstItem="ZDB-hy-Q4p" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="21" id="nKS-QV-1oF"/>
+                <constraint firstItem="ZDB-hy-Q4p" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="nZr-sa-yGj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="367" height="73"/>
+            <connections>
+                <outlet property="shopTypeLabel" destination="dgP-jS-8cy" id="KyE-Sc-lty"/>
+                <outlet property="shopTypeSwitch" destination="ZDB-hy-Q4p" id="32o-F1-Q8P"/>
+            </connections>
+            <point key="canvasLocation" x="300" y="179.46026986506749"/>
+        </collectionViewCell>
+    </objects>
+</document>
